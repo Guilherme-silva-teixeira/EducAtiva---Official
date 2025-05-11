@@ -140,8 +140,6 @@ section
 
 #parallax1 img
 {
-    padding-top: 3%;
-    margin-left: 7%;
     height: 333px;
 }
 
@@ -154,11 +152,14 @@ section
     border-radius: 360px;
     background: #b78600;
     margin-top: 2.3px;
-    margin-left: 2px;
+    margin-left: -52px;
 }
 
 #sun1
 {
+    position: absolute;
+    margin-left: -54px;
+    margin-top: 0px;
     height: 77px;
     width: 77px;
     border-radius: 360px;
@@ -167,43 +168,10 @@ section
 
 #parallax3 img
 {
-    margin-top: 27%;
-    margin-right: 7%;
+    position: relative;
+    margin-top: 107px;
     height: 333px;
-}
-
-#parallax4 img
-{
-    margin-right: 13%;
-    height: 233px;
-}
-
-#parallaxImages2
-{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-#parallax4
-{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: top;
-    margin-right: 77px;
-}
-
-#TextoW
-{
-    width: 350px;
-    margin-left: 15%;
-    font-family: 'poppins';
-    color: #4b2500;
-    font-size: 17px;
-    position: absolute;
-    z-index: 1;
+    margin-left: -130px;
 }
 
 #title1
@@ -218,75 +186,175 @@ section
     color: #4b2500;
 }
 
+#box2
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#TextoW
+{
+    width: 350px;
+    margin-left: 15%;
+    font-family: 'poppins';
+    color: #4b2500;
+    font-size: 17px;
+    position: absolute;
+    z-index: 1;
+    text-align: justify;
+}
+
+#flexImg1
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#parallaxCloud1
+{
+    margin-right: 73px;
+    position: absolute;
+    height: 297px;
+}
+
 #earth
 {
     position: absolute;
-    z-index: -1;
-    height: 777px;
+    height: 733px;
     width: 100%;
-    /*background: #4b2500;*/
-    margin-top: 200px;
+    margin-top: 433px;
 }
 
-#sscenario
+#dirt
 {
-    height: 333px;
-    width: 100%;
-    display: flex;
-}
-
-#sscenario #ambient
-{
-    width: 100%;
-    display: flex;
-    position: relative;
-    z-index: -1;
-    margin-top: -283px;
-    margin-left: 93px;
-}
-
-#sscenario #ambient #arbust01 img
-{
-    position: absolute;
-    height: 437px;
-}
-
-#sscenario #ambient #arbust01 img:nth-child(2)
-{
-    margin-top: 240px;
-    height: 177px;
-    margin-left: 206px;
-    transform: rotate(-47deg);
-}
-
-#sscenario #backgImage
-{
-    margin-top: 77px;
-    position: absolute;
-    z-index: -1;
     height: 177px;
     width: 100%;
     background-image: url('edHeader.png');
     transform: rotate(180deg);
 }
 
-#bottom
+#sscenario-top
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5px 0 5px;
+}
+
+
+#tree0 img
+{
+    height: 170px;
+    margin-top: -93px;
+    margin-right: -133px;
+    position: absolute;
+}
+
+#tree0 img:nth-child(2)
+{
+    height: 70px;
+    width: 70px;
+    margin-top: 0px;
+    margin-left: 150px;
+    position: absolute;
+    transform: rotate(5deg);
+}
+
+#tree0 img:nth-child(3)
+{
+    height: 100px;
+    width: 100px;
+    margin-top: -30px;
+    position: absolute;
+    transform: rotate(30deg);
+    margin-left: -130px;
+}
+
+#arbust img
+{
+    margin-top: -300px;
+    position: absolute;
+    height: 370px;
+    width: 370px;
+}
+
+#arbust img:nth-child(2)
+{
+    margin-left: 200px;
+    margin-top: -100px;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    z-index: -1;
+}
+
+#tree1 img
+{
+    margin-left: -233px;
+    margin-top: -293px;
+    position: absolute;
+    height: 370px;
+}
+
+#container
+{
+    height: 700px;
+    width: 100%;
+    background: #ffe77f;
+}
+
+#title2
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title2 h1
+{
+    font-family: 'poppins',sans-serif;
+    font-size: 33px;
+    color: rgb(0, 100, 73);
+}
+
+#content
+{
+    margin-top: 33px;
+    width: 100%;
+    padding: 0 7% 0 7% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins',sans-serif;
+}
+
+#content div
+{
+    width: 700px;
+    text-align: justify;
+}
+
+#content div h3
+{
+    color: rgb(0, 70, 57);
+}
+
+#content div p
+{
+    color: rgb(0, 70, 57);
+}
+
+#greenArbust
 {
     position: absolute;
-    height: 777px;
-    width: 100%; 
-    margin-top: -87px;
-    background-color: #ffe77f;
-}
-
-#tree01
-{
-    margin-top: 3px;
-    margin-left: 533px;
-    position: relative;
-}
-
-#tree1
-{
-    height: 437px;
+    margin-top: -1090px;
+    height: 1080px;
+    width: 100%;
+    background-image: url('greenArbust.png');
+    background-repeat: repeat;
+    background-position-x: -5px;
 }
