@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-image: url('edBackground.png');
+    background-repeat: repeat;
+    image-resolution: from-image;
+    background-repeat: repeat;
+}
+
+header
+{
+    position: fixed;
+    background-image: url('edHeader.png');
+    background-repeat: repeat;
+    margin-top: -21px;
+    padding-top: 33px;
+    padding-left: 17px;
+    padding-right: 17px;
+    /*background-size: 100% ;*/
+    height: 300px;
+    width: 100%;
+    z-index: 3;
+}
+
+#placeholder
+{
+    height: 17px;
+}
+
+#mainHeader
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.link
+{
+    position: absolute;
+    text-decoration: none;
+    color: #c89712;
+    font-size: 17px;
+    padding: -3px;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#right
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#link
+{
+    margin: -37px 0 0 0;
+    height: 100px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.cloud
+{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    zoom: 0.8;
+    z-index: 0;
+}
+
+#link:nth-child(1)
+{
+    transform: rotate(3deg);
+    margin-top: -33px;
+}
+
+#link:nth-child(2)
+{
+    transform: rotate(-2deg);
+    margin-top: -38px;
+}
+
+#link:nth-child(3)
+{
+    transform: rotate(1deg);
+    margin-top: -35px;
+}
+
+#link:nth-child(1):hover
+{
+    transform: rotate(-3deg);
+}
+
+#link:nth-child(2):hover
+{
+    transform: rotate(5deg);
+}
+
+#link:nth-child(3):hover
+{
+    transform: rotate(-4deg);
+}
+
+section
+{
+    width: 100%;
+}
+
+#mainContainer
+{
+    width: 100%;
+}
+
+#parallaxImages1
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+}
+
+#parallax1 img
+{
+    height: 333px;
+}
+
+#sun0
+{
+    position: absolute;
+    z-index: -1;
+    height: 77px;
+    width: 77px;
+    border-radius: 360px;
+    background: #b78600;
+    margin-top: 2.3px;
+    margin-left: -52px;
+}
+
+#sun1
+{
+    position: absolute;
+    margin-left: -54px;
+    margin-top: 0px;
+    height: 77px;
+    width: 77px;
+    border-radius: 360px;
+    background: #fdc836;
+}
+
+#parallax3 img
+{
+    position: relative;
+    margin-top: 107px;
+    height: 333px;
+    margin-left: -130px;
+}
+
+#title1
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 77px;
+    font-family: 'poppins',sans-serif;
+    font-size: 53px;
+    font-weight: bold;
+    color: #4b2500;
+}
+
+#box2
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#TextoW
+{
+    width: 350px;
+    margin-left: 15%;
+    font-family: 'poppins';
+    color: #4b2500;
+    font-size: 17px;
+    position: absolute;
+    z-index: 1;
+    text-align: justify;
+}
+
+#flexImg1
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#parallaxCloud1
+{
+    margin-right: 73px;
+    position: absolute;
+    height: 297px;
+}
+
+#earth
+{
+    position: absolute;
+    height: 733px;
+    width: 100%;
+    margin-top: 433px;
+}
+
+#dirt
+{
+    height: 177px;
+    width: 100%;
+    background-image: url('edHeader.png');
+    transform: rotate(180deg);
+}
+
+#sscenario-top
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5px 0 5px;
+}
+
+
+#tree0 img
+{
+    height: 170px;
+    margin-top: -93px;
+    margin-right: -133px;
+    position: absolute;
+}
+
+#tree0 img:nth-child(2)
+{
+    height: 70px;
+    width: 70px;
+    margin-top: 0px;
+    margin-left: 150px;
+    position: absolute;
+    transform: rotate(5deg);
+}
+
+#tree0 img:nth-child(3)
+{
+    height: 100px;
+    width: 100px;
+    margin-top: -30px;
+    position: absolute;
+    transform: rotate(30deg);
+    margin-left: -130px;
+}
+
+#arbust img
+{
+    margin-top: -300px;
+    position: absolute;
+    height: 370px;
+    width: 370px;
+}
+
+#arbust img:nth-child(2)
+{
+    margin-left: 200px;
+    margin-top: -100px;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    z-index: -1;
+}
+
+#tree1 img
+{
+    margin-left: -233px;
+    margin-top: -293px;
+    position: absolute;
+    height: 370px;
+}
+
+#container
+{
+    height: 700px;
+    width: 100%;
+    background: #ffe77f;
+}
+
+#title2
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title2 h1
+{
+    font-family: 'poppins',sans-serif;
+    font-size: 33px;
+    color: rgb(0, 100, 73);
+}
+
+#content
+{
+    margin-top: 33px;
+    width: 100%;
+    padding: 0 7% 0 7% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins',sans-serif;
+}
+
+#content div
+{
+    width: 700px;
+    text-align: justify;
+}
+
+#content div h3
+{
+    color: rgb(0, 70, 57);
+}
+
+#content div p
+{
+    color: rgb(0, 70, 57);
+}
+
+#greenArbust
+{
+    position: absolute;
+    margin-top: -1090px;
+    height: 1080px;
+    width: 100%;
+    background-image: url('greenArbust.png');
+    background-repeat: repeat;
+    background-position-x: -5px;
+}
+
+#greenBottom
+{
+    position: absolute;
+    margin-top: -30px;
+    height: 1470px;
+    width: 100%;
+    background: #348757;
+}
+
+#whatThisGuideFor
+{
+    margin-top: 33px;
+    width: 100%;
+    padding: 0 13% 0 13%;
+}
+
+#whatThisGuideFor div
+{
+    display: flex;
+    font-family: 'poppins',sans-serif;
+    flex-direction: column;
+    text-align: justify;
+    padding-bottom: 33px;
+}
+
+#whatThisGuideFor div h1
+{
+    font-size: 33px;
+    width: 100%;
+    text-align: center;
+    color: #000e;
+    margin-bottom: 33px;
+    margin-top: 33px;
+}
+
+#whatThisGuideFor div #h13
+{
+    margin-top: 53px;
+}
+
+#whatThisGuideFor div p
+{
+    color: #000e;
+    font-size: 17px;
+}
+
+#whatThisGuideFor div h3
+{
+    margin-top: 17px;
+    margin-bottom: 7px;
+}
+
+#bottomArbust
+{
+    position: absolute;
+    height: 108px;
+    width: 100%;
+    background-position-y: 150px;
+    background-image: url('greenArbust.png');
+    background-repeat: repeat;
+    z-index: 3;
+    margin-top: 1433px;
+    transform: rotate(180deg);
+}
+
+#sky1
+{
+    font-family: 'poppins',sans-serif;
+    position: absolute;
+    z-index: 1;
+    margin-top: 3000px;
+    width: 100%;
+    padding: 0 17% 0 17%;
+}
+
+#sky1 h1
+{
+    font-size: 43px;
+    margin-bottom: 33px;
+    color: #4b2500;
+    text-align: center;
+}
+
+#sky1 p
+{
+    text-align: justify;
+    color: #4b2500;
+    margin-bottom: 17px;
+}
+
+#dirt2
+{
+    margin-top: 3700px;
+    transform: rotate(180deg);
+    background-image: url('edHeader.png');
+    height: 190px;
+    width: 100%;
+}
+
+#cloudz1
+{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#cloud4
+{
+      display: flex;
+    justify-content: flex-end;
+    margin-top: 3300px;
+    width: 100%;
+    z-index: -1;
+    margin-right: 17px;
+    background-repeat: no-repeat;
+  
+}
+
+#cloud4 img
+{
+    height: 370px;
+    width: 370px;
+}
+
+#cloud5
+{
+    margin-top: 3000px;
+    position: absolute;
+    z-index: -1;
+    height: 371px;
+    width: 371px;
+    background-repeat: no-repeat;
+}
+
+#cloud5 img
+{
+    height: 370px;
+    width: 370px;
+}
+
+#yellowBottom1
+{
+    height: 1500px;
+    width: 100%;
+    background: #ffe77f;
+}
